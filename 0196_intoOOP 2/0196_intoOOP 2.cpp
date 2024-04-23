@@ -33,4 +33,11 @@ public:
         return panjang * lebar;
     }
 
-    
+    // Tampilkan informasi
+    void display() const {
+        cout << "Panjang: " << panjang << endl;
+        cout << "Lebar: " << lebar << endl;
+        cout << "Luas: " << hitungLuas() << endl;
+    }
+};
+
