@@ -27,3 +27,10 @@ public:
     float getLebar() const {
         return lebar;
     }
+
+    // Hitung luas
+    float hitungLuas() const {
+        return panjang * lebar;
+    }
+
+    
