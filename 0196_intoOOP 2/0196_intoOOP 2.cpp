@@ -9,3 +9,10 @@ private:
 public:
     // Constructor
     BangunDatar() {}
+
+    // Setter
+    void setPanjang(float panjang) {
+        this->panjang = panjang;
+    }
+
+   
