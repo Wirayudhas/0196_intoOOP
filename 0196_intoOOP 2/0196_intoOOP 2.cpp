@@ -19,4 +19,11 @@ public:
         this->lebar = lebar;
     }
 
-   
+    // Getter
+    float getPanjang() const {
+        return panjang;
+    }
+
+    float getLebar() const {
+        return lebar;
+    }
